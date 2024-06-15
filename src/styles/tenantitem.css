@@ -1,0 +1,65 @@
+.tenantitem {
+    width: 20rem;
+    height: 30rem;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgb(213, 213, 213);
+    cursor: pointer;
+}
+.tenantitem:hover {
+    transform: scale(1.01, 1.01);
+}
+.tenantimg {
+    width: 100%;
+    height: 50%;
+}
+.tenantimg>img {
+    width: 100%;
+    height: 100%;
+}
+.tenantdetails {
+    width: 100%;
+    height: 50%;
+}
+.topdetails {
+    width: 100%;
+    height: 75%;
+    padding: 1rem;
+}
+.detailhead {
+    width: 100%;
+    height: 60%;
+    font-size: 22px;
+    font-weight: 700;
+}
+.detailprice {
+    width: 100%;
+    height: 40%;
+}
+.detailprice>span {
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+}
+.detailprice>p {
+    font-size: 25px;
+    color: #F4511E;
+    font-weight: 500;
+}
+.bottomdetails {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.members {
+    width: 33.3%;
+    height: 100%;
+    border: 1px solid rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.members>svg {
+    margin-right: 8px;
+}

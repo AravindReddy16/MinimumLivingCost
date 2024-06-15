@@ -1,0 +1,103 @@
+.tenantpage {
+    width: 100%;
+    padding: 4rem;
+    background-color: #F5F5F5;
+}
+.tenantheader {
+    width: 100%;
+    min-height: 5rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.headdiv, .buttondiv {
+    width: 50%;
+}
+.headdiv>p {
+    font-size: 32px;
+    font-weight: 650;
+    margin-bottom: 5px;
+}
+.headdiv>hr {
+    width: 6rem;
+    border: 2px solid #F4511E;
+}
+.buttondiv {
+    text-align: end;
+}
+.buttondiv>button {
+    width: 12rem;
+    height: 3.5rem;
+    background-color: #F4511E;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.buttondiv>button:hover {
+    background-color: #e64c1d;
+}
+.tenantlistdiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-evenly;
+}
+.listpagesdiv {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.pagediv {
+    width: 20rem;
+    height: 3.5rem;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pagediv>button {
+    width: 16%;
+    height: 100%;
+    border: 1px solid rgb(186, 186, 186);
+    background-color: white;
+    cursor: pointer;
+    color: #F4511E;
+    font-size: 17px;
+}
+#fbtn, #nbtn {
+    width: 26%;
+    height: 100%;
+}
+#fbtn {
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(167, 167, 167);
+}
+#nbtn {
+    border-radius: 0px 10px 10px 0px;
+}
+.pagediv>button:hover {
+    background-color: #F4511E;
+    color: white;
+}
+@media(width < 991px) {
+    .tenantpage {
+        padding: 4rem 1rem;
+    }
+    .tenantheader {
+        margin-bottom: 3rem;
+    }
+    .headdiv>p {
+        font-size: 28px;
+    }
+    .buttondiv>button {
+        width: 9rem;
+        font-size: 15px;
+    }
+    .tenantlistdiv {
+        gap: 3rem;
+    }
+}

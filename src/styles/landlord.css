@@ -1,0 +1,115 @@
+.landlordpage {
+    width: 100vw;
+    padding: 4rem;
+}
+.landlordheader {
+    width: 100%;
+    min-height: 4rem;
+    font-size: 32px;
+    font-weight: 650;
+    margin-bottom: 1rem;
+}
+.landlordheader>p {
+    margin-bottom: 4px;
+}
+.landlordheader>hr {
+    width: 25rem;
+    border: 2px solid #F4511E;
+}
+.landlordbox {
+    width: 100%;
+    min-height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.leftbox {
+    width: 22rem;
+    height: 32rem;
+    border-radius: 40px 0px 40px 0px;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgb(184, 184, 184);
+}
+.leftbox>img {
+    width: 100%;
+    height: 100%;
+}
+.rightbox {
+    width: 65%;
+    min-height: 32rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    gap: 1.5rem;
+}
+.singlebox {
+    width: 15rem;
+    height: 15rem;
+}
+.singletop {
+    width: 100%;
+    height: 40%;
+}
+.symboldiv {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px rgb(173, 173, 173);
+    cursor: pointer;
+}
+.symboldiv:hover {
+    transform: scale(1.02, 1.02);
+}
+.singlebottom {
+    width: 100%;
+    height: 60%;
+    font-size: 27px;
+    font-weight: 620;
+}
+@media(width < 991px) {
+    .landlordpage {
+        padding: 4rem 1rem;
+    }
+    .landlordheader {
+        font-size: 26px;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .landlordheader>p {
+        margin-bottom: 5px;
+    }
+    .landlordheader>hr {
+        width: 40%;
+    }
+    .landlordbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 4rem;
+    }
+    .leftbox {
+        width: 100%;
+        height: 30rem;
+    }
+    .rightbox {
+        width: 100%;
+        min-height: 25rem;
+    }
+    .singlebox {
+        height: 12rem;
+    }
+    .symboldiv {
+        width: 4rem;
+        height: 4rem;
+    }
+    .singlebottom {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,138 @@
+.testinominalpage {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+.testinominaldiv {
+    width: 100%;
+    min-height: 30rem;
+    background-color: rgba(250, 72, 18, 0.07);
+    display: flex;
+}
+.leftmonial {
+    width: 60%;
+    min-height: 30rem;
+    padding: 5rem 2rem 2rem 5rem;
+    position: relative;
+}
+.leftmonial>svg {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+.nominalcontext {
+    width: 100%;
+    min-height: 12rem;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    word-spacing: 0.2rem;
+    line-height: 1.6rem;
+    font-family: sans-serif;
+}
+.nominalprofile {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.profilepic {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #F4511E;
+    margin-right: 1.5rem;
+}
+.profilepic>img {
+    width: 100%;
+    height: 100%;
+}
+.profilename {
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profilename>p {
+    font-size: 20px;
+    font-weight: 650;
+    color: #F4511E;
+}
+.profilename>span {
+    font-size: 14px;
+}
+.nominals {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: end;
+}
+.nominals>span {
+    font-size: 70px;
+    margin-right: 0.3rem;
+    color: rgb(214, 214, 214);
+}
+.nominals>span:first-child {
+    color: #F4511E;
+}
+.rightmonial {
+    width: 40%;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+}
+.video>img {
+    width: 100%;
+    height: 100%;
+}
+.playbtndiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playbtn {
+    width: 5rem;
+    height: 5rem;
+    background-color: #F4511E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.playbtn:hover {
+    background-color: #e44b1d;
+}
+.triangle {
+    border-top: 15px solid transparent;
+    border-left: 20px solid white;
+    border-bottom: 15px solid transparent;
+}
+@media(width < 991px) {
+    .testinominaldiv {
+        flex-direction: column-reverse;
+    }
+    .leftmonial {
+        width: 100%;
+        padding: 5rem 1rem 2rem 1rem;
+    }
+    .leftmonial>svg {
+        left: 0.5rem;
+    }
+    .nominals {
+        justify-content: center;
+    }
+    .rightmonial {
+        width: 100%;
+    }
+}

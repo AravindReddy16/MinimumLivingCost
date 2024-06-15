@@ -1,0 +1,166 @@
+.customerpage {
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+}
+.customerpage>p {
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: 550;
+}
+.formdiv {
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    padding: 2rem;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgb(219, 219, 219);
+}
+.formdiv>p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #F4511E;
+    margin-bottom: 3rem;
+}
+.firstform, .secondform, .thirdform {
+    width: 100%;
+    min-height: 10%;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.first, .second, .third {
+    width: calc(100%/3);
+    height: 100%;
+}
+.first>p, .second>p, .third>p {
+    font-size: 17px;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.first>p>span, .second>p>span, .third>p>span {
+    color: red;
+}
+.first>input, .second>select, .third>input, .third>select {
+    width: 80%;
+    height: 63%;
+    border: 1px solid #dadada;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    font-size: 17px;
+    outline: 0px;
+}
+.second>select, .third>select {
+    color: rgb(132, 132, 132);
+}
+.forthform, .fifthform {
+    width: 100%;
+    height: 17%;
+    margin-bottom: 1.5rem;
+}
+.forthform>p, .fifthform>p {
+    font-size: 17px;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.forthform>p>span {
+    color: red;
+}
+.forthform>textarea {
+    width: 100%;
+    height: 79%;
+    resize: none;
+    border: 1px solid #dadada;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    font-size: 17px;
+    outline: 0px;
+    font-family: sans-serif;
+}
+.dragdrop {
+    width: 100%;
+    height: 79%;
+    border: 2px dashed #F4511E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+#dragtop {
+    font-size: 20px;
+    font-weight: 600;
+}
+#dragtop>span {
+    color: #F4511E;
+}
+#dragbottom {
+    font-size: 16px;
+    color: rgb(132, 132, 132);
+}
+.formbtn {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formbtn>button {
+    width: 30rem;
+    height: 100%;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+    background-color: #F4511E;
+}
+.formbtn>button:hover {
+    background-color: #e44a1b;
+}
+@media(width < 991px) {
+    .customerpage {
+        padding: 4rem 1rem;
+    }
+    .formdiv {
+        height: 85rem;
+        padding: 1rem;
+        justify-content: space-evenly;
+    }
+    .formdiv>p {
+        font-size: 25px;
+    }
+    .firstform, .secondform, .thirdform {
+        width: 100%;
+        min-height: 5rem;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        gap: 1.5rem;
+    }
+    .first, .second, .third {
+        width: 18.5rem;
+        height: 5rem;
+    }
+    .first>input, .second>select, .third>input, .third>select {
+        width: 100%;
+    }
+    .forthform, .fifthform {
+        height: 10rem;
+    }
+    #dragtop {
+        font-size: 17px;
+    }
+    #dragbottom {
+        font-size: 15px;
+    }
+    .formbtn {
+        height: 3.5rem;
+    }
+}

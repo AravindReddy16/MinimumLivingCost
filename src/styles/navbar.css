@@ -1,0 +1,70 @@
+.navbarpage {
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.logodiv {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logodiv>img {
+    width: 12rem;
+    height: 3rem;
+}
+.navlistdiv {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+}
+.navitem {
+    padding: 1rem 1rem 0rem 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.navitem:first-child, .navitem:hover {
+    border-bottom: 3px solid white;
+}
+@media(width < 991px) {
+    .navbarpage {
+        width: 90%;
+        position: relative;
+    }
+    .logodiv {
+        width: 50%;
+    }
+    .logodiv>img {
+        width: 8rem;
+        height: 2.5rem;
+    }
+    .navlistlogo {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 2rem;
+    }
+    .navitemsdiv {
+        width: 20rem;
+        height: 20rem;
+        background-color: white;
+        position: absolute;
+        top: 15vh;
+        right: 0vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 20px;
+        font-weight: 650;
+        border-radius: 10px;
+    }
+}
