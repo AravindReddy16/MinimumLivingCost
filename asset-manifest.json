@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MinimumLivingCost/static/css/main.76833ff7.css",
+    "main.js": "/MinimumLivingCost/static/js/main.d92994d5.js",
+    "static/js/453.a9f3c92e.chunk.js": "/MinimumLivingCost/static/js/453.a9f3c92e.chunk.js",
+    "static/media/background.png": "/MinimumLivingCost/static/media/background.51d7756dbf5bb436cbb1.png",
+    "static/media/map.jpeg": "/MinimumLivingCost/static/media/map.c4de5782b2e5addc679f.jpeg",
+    "static/media/testimonialback.jpeg": "/MinimumLivingCost/static/media/testimonialback.eebd8d716eee57096bff.jpeg",
+    "static/media/house.jpeg": "/MinimumLivingCost/static/media/house.f0a00d8eb4b4126fc49a.jpeg",
+    "static/media/list4.jpeg": "/MinimumLivingCost/static/media/list4.e61e29ac93a38c1b72fb.jpeg",
+    "static/media/comfort1.jpeg": "/MinimumLivingCost/static/media/comfort1.1a0c487f3a5486e1061d.jpeg",
+    "static/media/list2.jpeg": "/MinimumLivingCost/static/media/list2.cca89fa41a75a604792b.jpeg",
+    "static/media/list5.jpeg": "/MinimumLivingCost/static/media/list5.304f6965416739a7b25e.jpeg",
+    "static/media/list3.jpeg": "/MinimumLivingCost/static/media/list3.7a5993cf091c9d724f93.jpeg",
+    "static/media/comfort4.jpeg": "/MinimumLivingCost/static/media/comfort4.a6d274c9dc36e43627d8.jpeg",
+    "static/media/comfort2.jpeg": "/MinimumLivingCost/static/media/comfort2.170cbad318f10695d86c.jpeg",
+    "static/media/list6.jpeg": "/MinimumLivingCost/static/media/list6.569ae7af672ec10f0381.jpeg",
+    "static/media/list1.jpeg": "/MinimumLivingCost/static/media/list1.75e146de749bf6c4e720.jpeg",
+    "static/media/comfort3.jpeg": "/MinimumLivingCost/static/media/comfort3.df4a1097fbd72179413b.jpeg",
+    "static/media/logo.png": "/MinimumLivingCost/static/media/logo.38357f06e912ebced103.png",
+    "index.html": "/MinimumLivingCost/index.html",
+    "main.76833ff7.css.map": "/MinimumLivingCost/static/css/main.76833ff7.css.map",
+    "main.d92994d5.js.map": "/MinimumLivingCost/static/js/main.d92994d5.js.map",
+    "453.a9f3c92e.chunk.js.map": "/MinimumLivingCost/static/js/453.a9f3c92e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76833ff7.css",
+    "static/js/main.d92994d5.js"
+  ]
+}
